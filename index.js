@@ -2,4 +2,13 @@
 let data = "raktim";
 const number = 123;
 data = "kshitiz";
-console.log(data);
+//Fooling around
+document.addEventListener("click", (e) => {
+  if (e.target.className === "mb1") {
+    alert("raktim");
+  } else if (e.target.className === "mb2") {
+    alert("kshitiz");
+  } else {
+    alert("pravat");
+  }
+});
