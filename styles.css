@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  top: 0;
+}
+
+.nbr {
+  background-color: red;
+}
+
+.mb {
+  display: flex;
+  height: 500px;
+}
+
+.mb1 {
+  flex: 1;
+  background-color: green;
+}
+
+.mb2 {
+  flex: 1;
+  background-color: blue;
+}
+
+.ftr {
+  background-color: yellow;
+  margin: auto;
+  margin-top: 415px;
+  bottom: 5px;
+}
